@@ -1,0 +1,141 @@
+.carousel-all {
+  display: block;
+  opacity: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  min-width: 300px;
+  max-height: 65vh;
+  min-height: 20vh;
+}
+.carousel-each {
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 65vh;
+  min-height: 20vh;
+  /* height: auto; */
+  color: white;
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+  background-size: contain;
+  background-image: url("../../public/images/home-page-images/select_mech.jpg");
+}
+
+.carousel-each1 {
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 65vh;
+  min-height: 20vh;
+
+  color: white;
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+  background-size: contain;
+  background-image: url("../../public/images/home-page-images/general_service.jpg");
+}
+.carousel-each2 {
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 65vh;
+  min-height: 20vh;
+  color: white;
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+  background-size: contain;
+  background-image: url("../../public/images/home-page-images/spares6.jpg");
+}
+.carousel-each3 {
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 65vh;
+  min-height: 20vh;
+  color: white;
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+  background-size: contain;
+  background-image: url("../../public/images/home-page-images/water_wash.jpg");
+}
+
+.carousel-each4 {
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 65vh;
+  min-height: 20vh;
+
+  color: orange;
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+  background-size: contain;
+  background-image: url("../../public/images/home-page-images/carrer2.jpg");
+}
+.carousel-each5 {
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 65vh;
+  min-height: 20vh;
+
+  color: orange;
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+  background-size: contain;
+  background-image: url("../../public/images/home-page-images/time2.jpg");
+}
+.carousel-each6 {
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 65vh;
+  min-height: 20vh;
+
+  color: orange;
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+  background-size: cover;
+
+  background-image: url("../../public/images/home-page-images/gear5.jpg");
+}
+
+.first-linec {
+  margin-left: 20px;
+  color: orange;
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+}
+
+.first-linec1 {
+  margin-left: 20px;
+  color: rgb(94, 86, 86);
+  /* line-height: 160px; */
+  text-align: justify;
+  font-size: 50px;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background: orange !important;
+  opacity: 4 !important;
+}
+
+.ant-carousel .slick-dots li button {
+  background: grey !important;
+  opacity: 2 !important;
+}
+
+.about-contact2 {
+  color: grey !important;
+}
+
+.about-contact2:hover {
+  border-bottom: solid #f99f38;
+}
+
+.email-cc {
+  color: grey;
+  padding-top: -10px;
+}

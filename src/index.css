@@ -1,0 +1,228 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+} */
+
+/* antd override */
+input {
+  /* border-radius: 2px !important; */
+  /* border: 1px solid rgba(128, 128, 128, 0.521) !important; */
+  min-height: 30px !important;
+}
+
+label {
+  font-size: 16px !important;
+  /* color: black !important; */
+}
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+.ant-picker-input input {
+  border: none !important;
+}
+.ant-picker {
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+/* Common styling */
+
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.704);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+.spinner-border {
+  width: 5rem;
+  height: 5rem;
+  color: white !important;
+}
+
+.page-title {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.833);
+  font-weight: bold;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.627);
+}
+.normal-text {
+  font-size: 1rem;
+}
+.card {
+  box-shadow: 0 0 2px rgb(189, 188, 188);
+  border-radius: 0 !important;
+}
+.primary-button {
+  background-color: #005555 !important;
+  border-color: #005555 !important;
+  height: 40px !important;
+  width: 100% !important;
+  color: white !important;
+  font-size: 16px !important;
+  width: max-content !important;
+}
+.full-width-button {
+  width: 100% !important;
+}
+p {
+  color: rgba(0, 0, 0, 0.673) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.anchor {
+  color: darkgrey !important;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px !important;
+}
+.anchor:hover {
+  text-decoration: underline !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* authentication pages */
+
+.authentication {
+  height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #005555; */
+}
+.authentication-form {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: transparent;
+  border-color: transparent;
+  width: 400px;
+}
+
+.authentication .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: white !important;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
+
+.buttonss {
+  background: #f99f38;
+  color: whitesmoke;
+  min-height: 40px;
+  font-size: medium;
+}
+.buttonss:hover {
+  background: #f99f38;
+  color: #4e54c8;
+}
+
+.link-anchor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bavckss {
+  color: #f99f38;
+}
+
+.height-inputts {
+  min-height: 40px !important;
+}
+
+.site-page-header {
+  color: #f99f38 !important;
+}
+
+.ant-page-header-heading-title {
+  margin-right: 12px;
+  margin-bottom: 0;
+  color: #f99f38 !important;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 62px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ant-page-header-heading-sub-title {
+  margin-right: 12px;
+  color: darkgrey;
+  opacity: 2;
+  font-size: 14px;
+  line-height: 1.5715;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ant-popover-inner-content {
+  padding: 12px 16px;
+  color: white !important;
+}
+
+.about-contact:hover {
+  border-bottom: solid #f99f38;
+
+  color: whitesmoke !important;
+}
+
+.ant-page-header .ant-divider-vertical {
+  height: 30px;
+  margin: 0 12px;
+  vertical-align: middle;
+}
+
+.buttonns2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f99f38;
+  color: whitesmoke;
+  height: 37px;
+  max-width: 320px;
+  font-size: medium;
+}
+.buttonns2:hover {
+  background: #f99f38;
+  color: #4e54c8;
+}
+
+.buttonnsdiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 9px;
+}
+
+.ant-divider-dashed {
+  background: transparent;
+  border: dashed #f99f38;
+  border-width: 1px 0 0;
+}
+
+.foredddr {
+  color: red;
+  font-size: x-small;
+}
+
+.first-letter {
+  color: grey;
+}

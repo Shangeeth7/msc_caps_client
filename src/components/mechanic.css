@@ -1,0 +1,508 @@
+.first-mm {
+  margin-left: 20px;
+  color: orange;
+  line-height: 60px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.second-mm {
+  margin-left: 20px;
+  color: grey;
+}
+
+element.style {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.mech-scooter1 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/scooty/scooter.jpg");
+}
+.mech-scooter2 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/scooty/scooter2.jpg");
+}
+.mech-scooter3 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/scooty/tvsxl.jpg");
+}
+
+.mech-standard1 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/normal/normal.jpg");
+}
+.mech-standard2 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/normal/normal1.jpg");
+}
+.mech-standard3 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/normal/normal2.jpg");
+}
+.mech-standard4 {
+  height: 36vh;
+  width: 45vh;
+  color: orange;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/normal/normal4.jpg");
+}
+
+.mech-sports1 {
+  height: 36vh;
+  width: 40vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/sports/sports1.jpg");
+}
+.mech-sports2 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/sports/sports6.jpg");
+}
+.mech-sports3 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/sports/sports4.jpg");
+}
+
+.mech-cruiser1 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/cruiser/cruiser1.jpg");
+}
+.mech-cruiser2 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/cruiser/cruiser2.jpg");
+}
+.mech-cruiser3 {
+  height: 36vh;
+  width: 45vh;
+  color: white;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/cruiser/cruiserRE.jpg");
+}
+.mech-cruiser4 {
+  height: 36vh;
+  width: 45vh;
+  color: orange;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+  background-size: cover;
+  background-image: url("../../public/images/bikes-types/cruiser/cruiser5.jpg");
+}
+
+@media screen and (max-width: 660px) {
+  .first-mm {
+    margin-left: 20px;
+    color: orange;
+    line-height: 20px;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .second-mm {
+    /* margin-top: -60px; */
+    margin-left: 20px;
+    color: grey;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+
+  element.style {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  .mech-scooter1 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/scooty/scooter.jpg");
+  }
+  .mech-scooter2 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/scooty/scooter2.jpg");
+  }
+  .mech-scooter3 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/scooty/tvsxl.jpg");
+  }
+
+  .mech-standard1 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/normal/normal.jpg");
+  }
+  .mech-standard2 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/normal/normal1.jpg");
+  }
+  .mech-standard3 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/normal/normal2.jpg");
+  }
+  .mech-standard4 {
+    height: 25vh;
+    width: 28vh;
+    color: orange;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/normal/normal4.jpg");
+  }
+
+  .mech-sports1 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: contain;
+    background-image: url("../../public/images/bikes-types/sports/sports1.jpg");
+  }
+  .mech-sports2 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: contain;
+    background-image: url("../../public/images/bikes-types/sports/sports6.jpg");
+  }
+  .mech-sports3 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/sports/sports4.jpg");
+  }
+
+  .mech-cruiser1 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/cruiser/cruiser1.jpg");
+  }
+  .mech-cruiser2 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/cruiser/cruiser2.jpg");
+  }
+  .mech-cruiser3 {
+    height: 25vh;
+    width: 28vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/cruiser/cruiserRE.jpg");
+  }
+  .mech-cruiser4 {
+    height: 25vh;
+    width: 28vh;
+    color: orange;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/cruiser/cruiser5.jpg");
+  }
+}
+@media only screen and (min-width: 661px) and (max-width: 960px) {
+  .content {
+    max-width: 80%;
+  }
+  .crrdd.card.p-2 {
+    display: flex;
+
+    max-width: 500px;
+  }
+
+  .first-mm {
+    margin-left: 20px;
+    color: orange;
+    line-height: 20px;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .second-mm {
+    /* margin-top: -60px; */
+    margin-left: 20px;
+    color: grey;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+
+  element.style {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  .mech-scooter1 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/scooty/scooter.jpg");
+  }
+  .mech-scooter2 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/scooty/scooter2.jpg");
+  }
+  .mech-scooter3 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/scooty/tvsxl.jpg");
+  }
+
+  .mech-standard1 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/normal/normal.jpg");
+  }
+  .mech-standard2 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/normal/normal1.jpg");
+  }
+  .mech-standard3 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/normal/normal2.jpg");
+  }
+  .mech-standard4 {
+    height: 50vh;
+    width: 70vh;
+    color: orange;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/normal/normal4.jpg");
+  }
+
+  .mech-sports1 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: contain;
+    background-image: url("../../public/images/bikes-types/sports/sports1.jpg");
+  }
+  .mech-sports2 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: contain;
+    background-image: url("../../public/images/bikes-types/sports/sports6.jpg");
+  }
+  .mech-sports3 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/sports/sports4.jpg");
+  }
+
+  .mech-cruiser1 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/cruiser/cruiser1.jpg");
+  }
+  .mech-cruiser2 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/cruiser/cruiser2.jpg");
+  }
+  .mech-cruiser3 {
+    height: 50vh;
+    width: 70vh;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/cruiser/cruiserRE.jpg");
+  }
+  .mech-cruiser4 {
+    height: 50vh;
+    width: 70vh;
+    color: orange;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-image: url("../../public/images/bikes-types/cruiser/cruiser5.jpg");
+  }
+}
