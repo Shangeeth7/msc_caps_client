@@ -14,7 +14,7 @@ function MechanicAppointments() {
     try {
       dispatch(showLoading());
       const resposne = await axios.get(
-        "/api/mechanic/get-appointments-by-mechanic-id",
+        "https://motorcycle-servicing-company.herokuapp.com/api/mechanic/get-appointments-by-mechanic-id",
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
@@ -34,7 +34,7 @@ function MechanicAppointments() {
     try {
       dispatch(showLoading());
       const resposne = await axios.post(
-        "/api/mechanic/change-appointment-status",
+        "https://motorcycle-servicing-company.herokuapp.com/api/mechanic/change-appointment-status",
         { appointmentId: record._id, status: status },
         {
           headers: {

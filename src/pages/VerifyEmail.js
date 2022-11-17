@@ -10,9 +10,12 @@ function VerifyEmail() {
   const verifyToken = async () => {
     try {
       toast.loading();
-      const response = await axios.post("/api/user/verifyemail", {
-        token: params.token,
-      });
+      const response = await axios.post(
+        "https://motorcycle-servicing-company.herokuapp.com/api/user/verifyemail",
+        {
+          token: params.token,
+        }
+      );
       if (response.data.success) {
         setEmailVerified("true");
       } else {

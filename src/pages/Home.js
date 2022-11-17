@@ -11,11 +11,14 @@ function Home() {
   const getData = async () => {
     try {
       dispatch(showLoading());
-      const response = await axios.get("/api/user/get-all-approved-mechanics", {
-        headers: {
-          Authorization: "Bearer " + localStorage.getItem("token"),
-        },
-      });
+      const response = await axios.get(
+        "https://motorcycle-servicing-company.herokuapp.com/api/user/get-all-approved-mechanics",
+        {
+          headers: {
+            Authorization: "Bearer " + localStorage.getItem("token"),
+          },
+        }
+      );
       dispatch(hideLoading());
       if (response.data.success) {
         setMechanics(response.data.data);

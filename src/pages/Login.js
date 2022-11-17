@@ -22,7 +22,10 @@ function Login() {
   const onFinish = async (values) => {
     try {
       dispatch(showLoading());
-      const response = await axios.post("/api/user/login", values);
+      const response = await axios.post(
+        "https://motorcycle-servicing-company.herokuapp.com/api/user/login",
+        values
+      );
       dispatch(hideLoading());
       if (response.data.success) {
         toast.success(response.data.message);
@@ -39,9 +42,12 @@ function Login() {
   const sendResetPasswordLink = async () => {
     try {
       toast.loading("");
-      const response = await axios.post("/api/user/send-password-reset-link", {
-        email,
-      });
+      const response = await axios.post(
+        "https://motorcycle-servicing-company.herokuapp.com/api/user/send-password-reset-link",
+        {
+          email,
+        }
+      );
       toast.dismiss();
       if (response.data.success) {
         toast.success(response.data.message);

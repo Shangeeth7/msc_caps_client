@@ -19,7 +19,10 @@ function MessageUs() {
     } else {
       try {
         dispatch(showLoading());
-        const response = await axios.post("/api/user/message", values);
+        const response = await axios.post(
+          "https://motorcycle-servicing-company.herokuapp.com/api/user/message",
+          values
+        );
         dispatch(hideLoading());
         if (response.data.success) {
           toast.success(response.data.message);

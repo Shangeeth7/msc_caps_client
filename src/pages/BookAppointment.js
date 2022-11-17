@@ -36,7 +36,7 @@ function BookAppointment() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "/api/mechanic/get-mechanic-info-by-id",
+        "https://motorcycle-servicing-company.herokuapp.com/api/mechanic/get-mechanic-info-by-id",
         {
           mechanicId: params.mechanicId,
         },
@@ -60,7 +60,7 @@ function BookAppointment() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "/api/user/check-booking-avilability",
+        "https://motorcycle-servicing-company.herokuapp.com/api/user/check-booking-avilability",
         {
           mechanicId: params.mechanicId,
           date: date,
@@ -89,7 +89,7 @@ function BookAppointment() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "/api/user/book-appointment",
+        "https://motorcycle-servicing-company.herokuapp.com/api/user/book-appointment",
         {
           mechanicId: params.mechanicId,
           userId: user._id,

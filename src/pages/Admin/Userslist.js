@@ -12,11 +12,14 @@ function Userslist() {
   const getUsersData = async () => {
     try {
       dispatch(showLoading());
-      const resposne = await axios.get("/api/admin/get-all-users", {
-        headers: {
-          Authorization: `Bearer ${localStorage.getItem("token")}`,
-        },
-      });
+      const resposne = await axios.get(
+        "https://motorcycle-servicing-company.herokuapp.com/api/admin/get-all-users",
+        {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
+          },
+        }
+      );
       dispatch(hideLoading());
       if (resposne.data.success) {
         setUsers(resposne.data.data);
@@ -42,7 +45,7 @@ function Userslist() {
     {
       title: "Created At",
       dataIndex: "createdAt",
-      render: (record , text) => moment(record.createdAt).format("DD-MM-YYYY"),
+      render: (record, text) => moment(record.createdAt).format("DD-MM-YYYY"),
     },
     {
       title: "Actions",
@@ -59,7 +62,7 @@ function Userslist() {
     <Layout>
       <h1 className="page-header">Users List</h1>
       <hr />
-      <Table columns={columns} dataSource={users}/>
+      <Table columns={columns} dataSource={users} />
     </Layout>
   );
 }
