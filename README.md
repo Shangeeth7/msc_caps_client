@@ -1,11 +1,11 @@
-**Web Application for Booking Motorcycle Service Online**
+**Web Application for Booking Motorcycle Service - Online**
 
 **// Login-Register Process :**
 1. First register your account and verify your e-mail using a link sent to your e-mail id , and then login with the respected credentials.
 2. In case you forget your password , you can reset-password , where a reset-password link will be sent to your registered e-mail id and you can reset password using that link.
  
 **// Booking Appointments :**
-1. Here you can select mechanics based on your motorcycle type.
+1. Here you can select a mechanic based on his experience and your motorcycle type.
 2. Users can check the availability for the selected time , if it's availabe they can book an appointment.
 
 **// Applying for a Mechanic :**
