@@ -11,7 +11,7 @@ function VerifyEmail() {
     try {
       toast.loading();
       const response = await axios.post(
-        "https://motorcycle-servicing-company.herokuapp.com/api/user/verifyemail",
+        "https://motorcycle-service.onrender.com/api/user/verifyemail",
         {
           token: params.token,
         }
@@ -31,7 +31,6 @@ function VerifyEmail() {
   useEffect(() => {
     verifyToken();
   }, []);
-  console.log(emailVerified);
 
   return (
     <div className="flex min-h-screen p-5 justify-center items-center">

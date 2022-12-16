@@ -12,7 +12,7 @@ function Home() {
     try {
       dispatch(showLoading());
       const response = await axios.get(
-        "https://motorcycle-servicing-company.herokuapp.com/api/user/get-all-approved-mechanics",
+        "https://motorcycle-service.onrender.com/api/user/get-all-approved-mechanics",
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),

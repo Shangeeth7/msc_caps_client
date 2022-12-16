@@ -16,7 +16,7 @@ function Register() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "https://motorcycle-servicing-company.herokuapp.com/api/user/register",
+        "https://motorcycle-service.onrender.com/api/user/register",
         values
       );
       dispatch(hideLoading());

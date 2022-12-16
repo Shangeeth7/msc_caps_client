@@ -1,20 +1,13 @@
-import { Carousel, PageHeader, Divider, Layout, Button, Popover } from "antd";
+import { Carousel, PageHeader, Divider, Layout, Popover } from "antd";
 import { CaretRightOutlined } from "@ant-design/icons";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import React from "react";
 import "./carousel.css";
 const { Footer } = Layout;
 
 function Carousels() {
-  let content,
-    content1,
-    content2,
-    content3,
-    content4,
-    content5,
-    content6,
-    content7;
+  let content, content1, content2, content3, content4, content5, content7;
   content = (
     <div>
       <p>
@@ -113,18 +106,6 @@ function Carousels() {
         <CaretRightOutlined />
         Spareparts servicing time may take long (or) vary upon the parts that
         being fixed or replaced
-      </p>
-    </div>
-  );
-  content6 = (
-    <div>
-      <p>
-        <CaretRightOutlined />
-        We are Hiring fersh and experienced mechanics
-      </p>
-      <p>
-        <CaretRightOutlined />
-        Log in for more details
       </p>
     </div>
   );

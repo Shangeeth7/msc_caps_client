@@ -13,7 +13,7 @@ function Userslist() {
     try {
       dispatch(showLoading());
       const resposne = await axios.get(
-        "https://motorcycle-servicing-company.herokuapp.com/api/admin/get-all-users",
+        "https://motorcycle-service.onrender.com/api/admin/get-all-users",
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,

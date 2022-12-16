@@ -23,7 +23,7 @@ function Login() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "https://motorcycle-servicing-company.herokuapp.com/api/user/login",
+        "https://motorcycle-service.onrender.com/api/user/login",
         values
       );
       dispatch(hideLoading());
@@ -43,7 +43,7 @@ function Login() {
     try {
       toast.loading("");
       const response = await axios.post(
-        "https://motorcycle-servicing-company.herokuapp.com/api/user/send-password-reset-link",
+        "https://motorcycle-service.onrender.com/api/user/send-password-reset-link",
         {
           email,
         }
@@ -135,9 +135,6 @@ function Login() {
             <br />
 
             <Input
-              // style={{
-              //   width: "95%",
-              // }}
               prefix={<UserOutlined className="site-form-item-icon" />}
               type="email"
               className="site-form-item-icon"

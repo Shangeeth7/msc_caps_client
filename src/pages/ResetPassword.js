@@ -15,7 +15,7 @@ function ResetPassword() {
     try {
       toast.loading();
       const response = await axios.post(
-        "https://motorcycle-servicing-company.herokuapp.com/api/user/resetpassword",
+        "https://motorcycle-service.onrender.com/api/user/resetpassword",
         {
           password,
           token: params.token,

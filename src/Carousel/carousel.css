@@ -22,7 +22,7 @@
   width: 160vh;
 
   color: white;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
   background-size: contain;
@@ -32,7 +32,7 @@
   height: 67vh;
   width: 160vh;
   color: white;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
   background-size: contain;
@@ -42,7 +42,7 @@
   height: 67vh;
   max-width: 100%;
   color: white;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
   background-size: cover;
@@ -54,7 +54,7 @@
   width: 160vh;
 
   color: orange;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
   background-size: contain;
@@ -65,7 +65,7 @@
   width: 160vh;
 
   color: orange;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
   background-size: contain;
@@ -76,7 +76,7 @@
   width: 160vh;
 
   color: orange;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
   background-size: contain;
@@ -88,7 +88,7 @@
   width: 160vh;
 
   color: orange;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
   background-size: contain;
@@ -99,21 +99,21 @@
 .first-linec {
   margin-left: 20px;
   color: orange;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
 }
 .second-linec {
   margin-left: 20px;
   color: rgb(94, 86, 86);
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 30px;
 }
 .second-linec1 {
   margin-left: 20px;
   color: rgb(94, 86, 86);
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 30px;
 }
@@ -121,21 +121,21 @@
 .first-linec1 {
   margin-left: 20px;
   color: rgb(94, 86, 86);
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
 }
 .first-linec2 {
   margin-left: 20px;
   color: rgb(94, 86, 86);
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 30px;
 }
 .first-linec3 {
   margin-left: 20px;
   color: orange;
-  /* line-height: 160px; */
+
   text-align: justify;
   font-size: 50px;
 }
@@ -175,7 +175,6 @@
     max-width: 90%;
     min-width: 90%;
     min-height: 65vh;
-    /* min-height: 20vh; */
   }
   .carousel-each {
     max-width: 100%;
@@ -183,10 +182,8 @@
     max-height: 200px;
     min-height: 80px;
 
-    /* min-height: 20vh; */
-    /* height: auto; */
     color: white;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -200,7 +197,7 @@
     min-height: 80px;
 
     color: white;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -213,7 +210,7 @@
     min-height: 80px;
 
     color: white;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -223,9 +220,9 @@
     max-width: 100%;
     min-width: 300px;
     max-height: 20vh;
-    /* min-height: 20vh; */
+
     color: white;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -239,7 +236,7 @@
     min-height: 80px;
 
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -252,7 +249,7 @@
     min-height: 80px;
 
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -265,7 +262,7 @@
     min-height: 80px;
 
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: cover;
@@ -279,7 +276,7 @@
     min-height: 80px;
 
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -290,7 +287,7 @@
   .first-linec {
     margin-left: 20px;
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
   }
@@ -298,21 +295,21 @@
   .first-linec1 {
     margin-left: 20px;
     color: rgb(94, 86, 86);
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
   }
   .first-linec2 {
     margin-left: 20px;
     color: rgb(94, 86, 86);
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
   }
   .first-linec3 {
     margin-left: 20px;
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
   }
@@ -363,7 +360,7 @@
     min-height: 20vh;
     /* height: auto; */
     color: white;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -377,7 +374,7 @@
     min-height: 20vh;
 
     color: white;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -389,7 +386,7 @@
     max-height: 35vh;
     min-height: 20vh;
     color: white;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -401,7 +398,7 @@
     max-height: 35vh;
     min-height: 20vh;
     color: white;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -415,7 +412,7 @@
     min-height: 20vh;
 
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -428,7 +425,7 @@
     min-height: 20vh;
 
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -441,7 +438,7 @@
     min-height: 20vh;
 
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: cover;
@@ -456,7 +453,7 @@
     min-height: 20vh;
 
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
     background-size: contain;
@@ -467,7 +464,7 @@
   .first-linec {
     margin-left: 20px;
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
   }
@@ -475,21 +472,21 @@
   .first-linec1 {
     margin-left: 20px;
     color: rgb(94, 86, 86);
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
   }
   .first-linec2 {
     margin-left: 20px;
     color: rgb(94, 86, 86);
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
   }
   .first-linec3 {
     margin-left: 20px;
     color: orange;
-    /* line-height: 160px; */
+
     text-align: justify;
     font-size: 20px;
   }

@@ -20,7 +20,7 @@ function MessageUs() {
       try {
         dispatch(showLoading());
         const response = await axios.post(
-          "https://motorcycle-servicing-company.herokuapp.com/api/user/message",
+          "https://motorcycle-service.onrender.com/api/user/message",
           values
         );
         dispatch(hideLoading());

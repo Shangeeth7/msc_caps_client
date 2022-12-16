@@ -14,7 +14,7 @@ function ProtectedRoute(props) {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "https://motorcycle-servicing-company.herokuapp.com/api/user/get-user-info-by-id",
+        "https://motorcycle-service.onrender.com/api/user/get-user-info-by-id",
         { token: localStorage.getItem("token") },
         {
           headers: {
