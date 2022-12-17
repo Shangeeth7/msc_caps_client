@@ -32,8 +32,11 @@ email : moto.service.centerr@gmail.com , password : 123456
 Mechanics :
 
 email : standardbike@gmail.com ,         password : 123456 --->> for standard bike mechanic
+
 email : sportsbike@gmail.com ,           password : 123456 --->> for sports bike mechanic
+
 email : shangeethcruiser@gmail.com,      password : 123456 --->> for cruiser bike mechanic
+
 email : shangeethkct@gmail.com,          password : 123456 --->> for scooter/gearless bike mechanic
 
 User :
