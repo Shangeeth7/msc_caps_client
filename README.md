@@ -16,4 +16,17 @@ First you need to register your account as a user and verify your e-mail using a
 
 Even if you are not a user , you can send your queries to admin in get-in-touch page.
 
+credentials :
+Admin :
+email : moto.service.centerr@gmail.com , password : 123456
+
+Mechanics :
+email : standardbike@gmail.com , password : 123456 -- for standard bike mechanic
+email : sportsbike@gmail.com , password : 123456 -- for sports bike mechanic
+email : shangeethcruiser@gmail.com, password : 123456 -- for cruiser bike mechanic
+email : shangeethkct@gmail.com, password : 123456 -- for scooter/gearless bike mechanic
+
+User :
+email : shangeeth24@gmail.com , password : 123456
+
 > > > > > > > c9d5a3a (nn)

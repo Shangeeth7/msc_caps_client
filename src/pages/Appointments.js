@@ -55,7 +55,10 @@ function Appointments() {
         <span>
           {moment(record.date).format("DD-MM-YYYY")}
           {" | "}
-          {moment(record.time).format("HH:mm")}
+          {moment(record.time)
+            .subtract(5, "hours")
+            .subtract(30, "minutes")
+            .format("HH:mm")}
         </span>
       ),
     },
