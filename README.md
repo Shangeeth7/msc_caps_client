@@ -1,6 +1,5 @@
 Web Application for Booking Motorcycle Service - Online
-  
-REFRESH Page after Login-in (every time after login, refresh page)
+
 
 // Login-Register Process :
 
@@ -31,18 +30,19 @@ email : moto.service.centerr@gmail.com , password : 123456
 
 Mechanics :
 
-email : standardbike@gmail.com ,         password : 123456 --->> for standard bike mechanic
+email : standardbike@gmail.com ,         password : abcd1234 --->> for standard bike mechanic
 
-email : sportsbike@gmail.com ,           password : 123456 --->> for sports bike mechanic
+email : sportsbike@gmail.com ,           password : abcd1234 --->> for sports bike mechanic
 
-email : shangeethcruiser@gmail.com,      password : 123456 --->> for cruiser bike mechanic
+email : cruiserBike@gmail.com,      password : abcd1234 --->> for cruiser bike mechanic
 
-email : shangeethkct@gmail.com,          password : 123456 --->> for scooter/gearless bike mechanic
+email : gearlessBike@gmail.com,          password : abcd1234 --->> for scooter/gearless bike mechanic
 
 User :
 
-email : shangeeth24@gmail.com ,          password : 123456
+email : user.1@gmail.com ,          password : abcd1234
+email : user.2@gmail.com ,          password : abcd1234
 
-REFRESH Page after Login-in (every time after login, refresh page)
+
 
 > > > > > > > c9d5a3a (nn)
