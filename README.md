@@ -1,5 +1,29 @@
 Web Application for Booking Motorcycle Service - Online
 
+credentials :
+
+Admin :
+
+email : moto.service.centerr@gmail.com , password : abcd1234
+
+Mechanics :
+
+email : standardmechanic@gmail.com ,         password : abcd1234 --->> for standard bike mechanic
+
+email : sportsmechanic@gmail.com ,           password : abcd1234 --->> for sports bike mechanic
+
+email : cruisermechanic@gmail.com,      password : abcd1234 --->> for cruiser bike mechanic
+
+email : gearlessmechanic@gmail.com,          password : abcd1234 --->> for scooter/gearless bike mechanic
+
+User :
+
+email : user.1@gmail.com ,          password : abcd1234
+
+email : user.2@gmail.com ,          password : abcd1234
+
+
+
 
 // Login-Register Process :
 
@@ -22,25 +46,4 @@ Web Application for Booking Motorcycle Service - Online
 
 
 
-credentials :
-
-Admin :
-
-email : moto.service.centerr@gmail.com , password : abcd1234
-
-Mechanics :
-
-email : standardmechanic@gmail.com ,         password : abcd1234 --->> for standard bike mechanic
-
-email : sportsmechanic@gmail.com ,           password : abcd1234 --->> for sports bike mechanic
-
-email : cruisermechanic@gmail.com,      password : abcd1234 --->> for cruiser bike mechanic
-
-email : gearlessmechanic@gmail.com,          password : abcd1234 --->> for scooter/gearless bike mechanic
-
-User :
-
-email : user.1@gmail.com ,          password : abcd1234
-
-email : user.2@gmail.com ,          password : abcd1234
 
