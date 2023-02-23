@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../layout.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -94,6 +94,11 @@ function Layout({ children }) {
     ? mechanicMenu
     : userMenu;
   const role = user?.isAdmin ? "Admin" : user?.isMechanic ? "Mechanic" : "User";
+  useEffect(() => {
+    if (user) {
+      window.location.reload();
+    }
+  }, []);
   return (
     <div className="main">
       <div className="d-flex layout">
