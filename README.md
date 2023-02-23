@@ -41,5 +41,6 @@ email : gearlessmechanic@gmail.com,          password : abcd1234 --->> for scoot
 User :
 
 email : user.1@gmail.com ,          password : abcd1234
+
 email : user.2@gmail.com ,          password : abcd1234
 
