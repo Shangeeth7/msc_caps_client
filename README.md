@@ -26,7 +26,7 @@ credentials :
 
 Admin :
 
-email : moto.service.centerr@gmail.com , password : 123456
+email : moto.service.centerr@gmail.com , password : abcd1234
 
 Mechanics :
 
