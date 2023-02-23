@@ -43,6 +43,3 @@ User :
 email : user.1@gmail.com ,          password : abcd1234
 email : user.2@gmail.com ,          password : abcd1234
 
-
-
-> > > > > > > c9d5a3a (nn)
