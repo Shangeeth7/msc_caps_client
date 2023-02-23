@@ -30,13 +30,13 @@ email : moto.service.centerr@gmail.com , password : abcd1234
 
 Mechanics :
 
-email : standardBike@gmail.com ,         password : abcd1234 --->> for standard bike mechanic
+email : standardmechanic@gmail.com ,         password : abcd1234 --->> for standard bike mechanic
 
-email : sportsBike@gmail.com ,           password : abcd1234 --->> for sports bike mechanic
+email : sportsmechanic@gmail.com ,           password : abcd1234 --->> for sports bike mechanic
 
-email : cruiserBike@gmail.com,      password : abcd1234 --->> for cruiser bike mechanic
+email : cruisermechanic@gmail.com,      password : abcd1234 --->> for cruiser bike mechanic
 
-email : gearlessBike@gmail.com,          password : abcd1234 --->> for scooter/gearless bike mechanic
+email : gearlessmechanic@gmail.com,          password : abcd1234 --->> for scooter/gearless bike mechanic
 
 User :
 
